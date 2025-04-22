@@ -287,6 +287,7 @@
     "tsx": "^4.19.1"
   },
   "scripts": {
+    "start": "npm run start:prod",
     "dev": "npx nodemon --development",
     "dev:prod": "npx nodemon --env=production",
     "build": "rimraf ./dist && tsc && tsc-alias",
